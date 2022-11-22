@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #4172db;
+    display: flex;
+}
+
+#app{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+button{
+    background: rgb(76, 0, 100);
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(110deg, #f6ff00 60%, #ff0000 60%);
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 1rem;
+}
